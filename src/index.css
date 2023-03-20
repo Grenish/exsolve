@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Playfair Display', serif;
+}
+
+.line-gradient{
+  background: linear-gradient( #EFCB68 0%, #160C28 100%);
+  background: -webkit-linear-gradient( #EFCB68 0%, #160C28 100%);
+}
