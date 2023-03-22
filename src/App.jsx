@@ -26,7 +26,9 @@ const App = () => {
         <Team />
         <Works />
         <Contact />
-        <Footer />
+        <div className="bg-hero-1 bg-cover bg-no-repeat bg-center">
+          <Footer />
+        </div>
       </div>
     </BrowserRouter>
   );
