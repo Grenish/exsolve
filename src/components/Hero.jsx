@@ -2,13 +2,12 @@ import React from "react";
 
 import { styles } from "../styles";
 import { motion } from "framer-motion";
-import { hands } from "../assets";
 
 const Hero = () => {
   return (
     <section className="relative w-full h-screen mx-auto">
       <div
-        className={`${styles.paddingX} absolute inset-0 top-[120px] max-w-7xl mx-auto flex xs:flex-row flex-col justify-between items-start gap-5`}
+        className={`${styles.paddingX} absolute inset-0 top-[120px] max-w-7xl mx-auto flex xs:flex-row flex-col justify-between md:items-center items-end gap-5`}
       >
         <div className="">
           <h1 className={`${styles.heroHeadText}`}>Hello there!</h1>

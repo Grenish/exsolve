@@ -18,7 +18,7 @@ module.exports = {
         "white-100" : "#f3f3f3"
       },
       boxShadow: {
-        "card-1": "rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px"
+        card: "rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px"
       },
       backgroundImage: {
         "hero-1": "url(/src/assets/hero1.svg)",

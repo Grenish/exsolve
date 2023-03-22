@@ -5,21 +5,27 @@ import client3 from "./client3.jpg";
 import p7 from "./p7.jpeg";
 import p3 from "./p4.jpeg";
 import p4 from "./p3.jpeg";
-import close from "./close.png"
-import menu from "./menu.png"
-import arrow from "./arrow.png"
-import hands from "./hands.png"
+import close from "./close.png";
+import menu from "./menu.png";
+import arrow from "./arrow.png";
+import hands from "./hands.png";
+import carrent from "./carrent.png";
+import jobit from "./jobit.png";
+import tripguide from "./tripguide.png";
 
 export {
-    github,
-    client1,
-    client2,
-    client3,
-    p7,
-    p3,
-    p4,
-    menu,
-    close,
-    arrow,
-    hands
-}
+  github,
+  client1,
+  client2,
+  client3,
+  p7,
+  p3,
+  p4,
+  menu,
+  close,
+  arrow,
+  hands,
+  carrent,
+  jobit,
+  tripguide,
+};

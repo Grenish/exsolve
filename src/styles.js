@@ -12,6 +12,12 @@ const styles = {
     "text-white-100 font-black md:text-[60px] sm:text-[50px] xs:text-[40px] text-[30px]",
   sectionSubText:
     "sm:text-[18px] text-[16px] text-ash-gray uppercase tracking-wider",
+
+  aimHeadText:
+    "text-ash-gray font-black md:text-[40px] sm:text-[20px] xs:text-[20px] text-[25px]",
+
+  aimSubText:
+    "sm:text-[20px] text-[15px] font-bold text-white-100 uppercase tracking-wider",
 };
 
 export { styles };

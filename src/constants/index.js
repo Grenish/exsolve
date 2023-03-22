@@ -1,66 +1,84 @@
-import { client1, client2, client3, p7, p4, p3 } from "../assets";
+import { p7, p4, p3, github, carrent, jobit, tripguide } from "../assets";
 
 const navLinks = [
   {
     id: "about",
-    title: "About"
+    title: "About",
   },
   {
     id: "works",
-    title: "Works"
+    title: "Works",
   },
   {
     id: "contact",
-    title: "Contact"
+    title: "Contact",
   },
-]
+];
 
-const feedbacks = [
+const aim = [
   {
-    feedback:
-      "I was impressed with their attention to detail and creative approach. Their work has helped our business immensely.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "XYZ Company",
-    image: client1,
+    title: "Total Client",
+    number: "0",
   },
   {
-    feedback:
-      "Their development skills are top-notch, and they were able to deliver the project on time and within budget.",
-    name: "Lisa Wang",
-    designation: "CEO",
-    company: "XYZ Company",
-    image: client2,
-  },
-  {
-    feedback:
-      "Working with them was a pleasure. They were professional, responsive, and delivered high-quality results.",
-    name: "Chris Brown",
-    designation: "CFO",
-    company: "XYZ Company",
-    image: client3,
+    title: "Our Goal",
+    number: "100+",
   },
 ];
 
 const members = [
-    {
-        name: "Grenish Rai",
-        description: "Frontend/Backend Designer",
-        skills: "ReactJs, NodeJs, MongoDB, UI/UX, HTML, CSS, JavaScript, TailwindCSS",
-        image: p7,
-    },
-    {
-        name: "Gagan Sharma",
-        description: "Busniess Strategist",
-        skills: "C, C++, HTML, CSS & Javascript, Python, FastAPI, Django, Flask",
-        image: p4,
-    },
-    {
-        name: "Ayush Sharma",
-        description: "Intern",
-        skills: "HTML, CSS, JavaScript, Bootstrap, TailwindCSS, Python",
-        image: p3,
-    }
-]
+  {
+    name: "Grenish Rai",
+    description: "Frontend/Backend Developer",
+    skills:
+      "ReactJs, NodeJs, MongoDB, UI/UX, HTML, CSS, JavaScript, TailwindCSS",
+    image: p7,
+    profile_link1: "https://github.com/Grenish",
+    icon: github,
+  },
+  {
+    name: "Gagan Sarmah",
+    description: "Software Developer",
+    skills: "C, C++, HTML, CSS, Javascript, Python, FastAPI, Django, Flask",
+    image: p4,
+    profile_link1: "https://github.com/Gags-1",
+    icon: github,
+  },
+  {
+    name: "Ayush Baral",
+    description: "Intern",
+    skills: "HTML, CSS, JavaScript, Python, C",
+    image: p3,
+    profile_link1: "https://github.com/codeayush-7",
+    icon: github,
+  },
+];
 
-export { feedbacks, members, navLinks };
+const projects = [
+  {
+    name: "Car Rent",
+    description:
+      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+    image: carrent,
+    source_code_link: "https://github.com/",
+    icon: github,
+  },
+  {
+    name: "Job IT",
+    description:
+      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+    image: jobit,
+    source_code_link: "https://github.com/",
+    icon: github,
+  },
+  {
+    name: "Trip Guide",
+    description:
+      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+    image: tripguide,
+    source_code_link: "https://github.com/",
+    icon: github,
+  },
+];
+
+export { members, aim, navLinks, projects };

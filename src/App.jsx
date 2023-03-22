@@ -5,8 +5,8 @@ import {
   Hero,
   About,
   Team,
+  Aim,
   Works,
-  Testimonials,
   Contact,
   Footer,
 } from "./components";
@@ -20,9 +20,11 @@ const App = () => {
           <Hero />
         </div>
         <About />
+        <div className="bg-hero-2 bg-cover bg-no-repeat bg-center">
+          <Aim />
+        </div>
         <Team />
         <Works />
-        <Testimonials />
         <Contact />
         <Footer />
       </div>
