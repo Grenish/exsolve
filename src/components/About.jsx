@@ -16,12 +16,13 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-honey-dew text-[17px] max-w-3xl leading-[30px]"
       >
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, animi?
-        Iste doloribus fuga necessitatibus qui. Fugit nostrum voluptate vel
-        iusto corrupti alias. Alias maxime nihil adipisci vero dolore nisi
-        fugiat est provident ipsam nobis! Alias atque maiores minus repellat!
-        Pariatur animi aliquam amet similique nesciunt eius accusamus ab
-        explicabo. Maiores veniam harum ullam dignissimos.
+        Our team of college undergraduates is highly skilled in web development
+        and software development, with a strong command of various frameworks
+        and programming languages. We have a proven track record of delivering
+        high-quality products within tight deadlines. Additionally, we offer a
+        range of customizable web services tailored to meet your specific needs.
+        We pride ourselves on our professionalism and commitment to providing
+        exceptional results for our clients.
       </motion.p>
     </>
   );

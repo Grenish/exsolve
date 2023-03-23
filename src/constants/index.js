@@ -46,7 +46,7 @@ const members = [
   },
   {
     name: "Ayush Baral",
-    description: "Intern",
+    description: "Junior Developer",
     skills: "HTML, CSS, JavaScript, Python, C",
     image: p3,
     profile_link1: "https://github.com/codeayush-7",
