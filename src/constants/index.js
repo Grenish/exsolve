@@ -1,4 +1,15 @@
-import { p7, p4, p3, github, carrent, jobit, tripguide } from "../assets";
+import {
+  p7,
+  p4,
+  p3,
+  github,
+  carrent,
+  jobit,
+  tripguide,
+  gagan,
+  grenish,
+  ayush,
+} from "../assets";
 
 const navLinks = [
   {
@@ -32,7 +43,7 @@ const members = [
     description: "Frontend/Backend Developer",
     skills:
       "ReactJs, NodeJs, MongoDB, UI/UX, HTML, CSS, JavaScript, TailwindCSS",
-    image: p7,
+    image: grenish,
     profile_link1: "https://github.com/Grenish",
     icon: github,
   },
@@ -40,7 +51,7 @@ const members = [
     name: "Gagan Sarmah",
     description: "Software Developer",
     skills: "C, C++, HTML, CSS, Javascript, Python, FastAPI, Django, Flask",
-    image: p4,
+    image: gagan,
     profile_link1: "https://github.com/Gags-1",
     icon: github,
   },
@@ -48,7 +59,7 @@ const members = [
     name: "Ayush Baral",
     description: "Junior Developer",
     skills: "HTML, CSS, JavaScript, Python, C",
-    image: p3,
+    image: ayush,
     profile_link1: "https://github.com/codeayush-7",
     icon: github,
   },

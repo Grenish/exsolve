@@ -12,6 +12,9 @@ import hands from "./hands.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import gagan from "./gagan.jpg";
+import grenish from "./grenish.jpeg";
+import ayush from "./ayush.jpg"
 
 export {
   github,
@@ -28,4 +31,7 @@ export {
   carrent,
   jobit,
   tripguide,
+  gagan,
+  grenish,
+  ayush,
 };
