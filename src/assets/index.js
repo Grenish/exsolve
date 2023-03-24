@@ -9,12 +9,11 @@ import close from "./close.png";
 import menu from "./menu.png";
 import arrow from "./arrow.png";
 import hands from "./hands.png";
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
 import gagan from "./gagan.jpg";
 import grenish from "./grenish.jpeg";
 import ayush from "./ayush.jpg"
+import bank from "./bank.png"
+import link from "./link.png"
 
 export {
   github,
@@ -28,10 +27,9 @@ export {
   close,
   arrow,
   hands,
-  carrent,
-  jobit,
-  tripguide,
   gagan,
   grenish,
   ayush,
+  bank,
+  link
 };

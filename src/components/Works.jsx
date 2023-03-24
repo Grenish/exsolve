@@ -14,6 +14,8 @@ const ProjectCard = ({
   image,
   source_code_link,
   icon,
+  icon2,
+  website_link,
 }) => {
   return (
     <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
@@ -31,7 +33,18 @@ const ProjectCard = ({
             alt={name}
             className="w-full h-full object-cover rounded-2xl"
           />
-          <div className="absolute inset-0 flex justify-end m-3">
+          <div className="absolute inset-0 flex justify-end gap-2 m-3">
+            <div
+              className="black-gradient w-10 h-10 bg-rich-black rounded-full flex justify-center items-center cursor-pointer"
+              onClick={() => window.open(website_link, "_blank")}
+            >
+              <img
+                src={icon2}
+                alt="link"
+                className="w-1/2 h-1/2 bg-white-100 rounded-full object-contain"
+              />
+            </div>
+
             <div
               className="black-gradient w-10 h-10 bg-rich-black rounded-full flex justify-center items-center cursor-pointer"
               onClick={() => window.open(source_code_link, "_blank")}

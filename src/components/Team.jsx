@@ -8,7 +8,6 @@ import { fadeIn, textVariant } from "../utils/motion";
 const MemberCard = ({
   index,
   name,
-  description,
   skills,
   image,
   profile_link1,
@@ -30,7 +29,6 @@ const MemberCard = ({
         <p className="text-center text-[18px] font-bold text-white-100">
           {name}
         </p>
-        <p className="text-center text-secondary">{description}</p>
         <p className="text-center text-ash-gray w-[280px]">{skills}</p>
         <a href={profile_link1} target="_blank">
           <img src={icon} alt="github" className="w-[28px] my-2" />

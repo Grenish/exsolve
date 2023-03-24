@@ -1,14 +1,10 @@
 import {
-  p7,
-  p4,
-  p3,
   github,
-  carrent,
-  jobit,
-  tripguide,
   gagan,
   grenish,
   ayush,
+  bank,
+  link,
 } from "../assets";
 
 const navLinks = [
@@ -40,7 +36,6 @@ const aim = [
 const members = [
   {
     name: "Grenish Rai",
-    description: "Frontend/Backend Developer",
     skills:
       "ReactJs, NodeJs, MongoDB, UI/UX, HTML, CSS, JavaScript, TailwindCSS",
     image: grenish,
@@ -49,7 +44,6 @@ const members = [
   },
   {
     name: "Gagan Sarmah",
-    description: "Software Developer",
     skills: "C, C++, HTML, CSS, Javascript, Python, FastAPI, Django, Flask",
     image: gagan,
     profile_link1: "https://github.com/Gags-1",
@@ -57,7 +51,6 @@ const members = [
   },
   {
     name: "Ayush Baral",
-    description: "Junior Developer",
     skills: "HTML, CSS, JavaScript, Python, C",
     image: ayush,
     profile_link1: "https://github.com/codeayush-7",
@@ -67,27 +60,13 @@ const members = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "HooBank",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
-    image: carrent,
-    source_code_link: "https://github.com/",
-    icon: github,
-  },
-  {
-    name: "Job IT",
-    description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-    image: jobit,
-    source_code_link: "https://github.com/",
-    icon: github,
-  },
-  {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    image: tripguide,
-    source_code_link: "https://github.com/",
+      "HooBank is a payment platform that allows users to easily send and receive money through their mobile devices, similar to other payment apps. It offers high security and efficiency for transactions.",
+    image: bank,
+    source_code_link: "https://github.com/Grenish/Project-Bank/",
+    website_link: "https://bank-project-1.netlify.app/",
+    icon2: link,
     icon: github,
   },
 ];
