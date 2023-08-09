@@ -10,7 +10,7 @@ import menu from "./menu.png";
 import arrow from "./arrow.png";
 import hands from "./hands.png";
 import gagan from "./gagan.jpg";
-import grenish from "./grenish.jpeg";
+import grenish from "./grenish.jpg";
 import ayush from "./ayush.jpg"
 import bank from "./bank.png"
 import link from "./link.png"
