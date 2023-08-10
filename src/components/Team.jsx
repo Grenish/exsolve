@@ -30,7 +30,7 @@ const MemberCard = ({
           {name}
         </p>
         <p className="text-center text-ash-gray w-[280px]">{skills}</p>
-        <a href={profile_link1} target="_blank">
+        <a href={profile_link1} className="p-2" target="_blank">
           <img src={icon} alt="github" className="w-[28px] my-2" />
         </a>
       </div>
@@ -43,7 +43,7 @@ const Team = () => {
     <>
       <motion.div className={textVariant()}>
         <p className={`${styles.sectionSubText}`}>Our Team</p>
-        <h2 className={`${styles.sectionHeadText}`}>Meet our expert minds</h2>
+        <h2 className={`${styles.sectionHeadText}`}>Meet our team members</h2>
       </motion.div>
 
       <div className="mt-20 flex flex-wrap gap-10">
