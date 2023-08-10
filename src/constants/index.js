@@ -25,7 +25,7 @@ const navLinks = [
 const aim = [
   {
     title: "Total Client",
-    number: "0",
+    number: "1",
   },
   {
     title: "Our Goal",
@@ -37,21 +37,21 @@ const members = [
   {
     name: "Grenish Rai",
     skills:
-      "ReactJs, NodeJs, MongoDB, UI/UX, HTML, CSS, JavaScript, TailwindCSS",
+      "Web Developer",
     image: grenish,
     profile_link1: "https://github.com/Grenish",
     icon: github,
   },
   {
     name: "Gagan Sarmah",
-    skills: "C, C++, HTML, CSS, Javascript, Python, FastAPI, Django, Flask",
+    skills: "Software Developer",
     image: gagan,
     profile_link1: "https://github.com/Gags-1",
     icon: github,
   },
   {
     name: "Ayush Baral",
-    skills: "HTML, CSS, JavaScript, Python, C",
+    skills: "Web Developer",
     image: ayush,
     profile_link1: "https://github.com/codeayush-7",
     icon: github,
